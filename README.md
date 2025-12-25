@@ -15,7 +15,7 @@ bash daily_log.sh
 - GitBash
 - GitHub
 
-## 📊 Monitoring Scripts (Day 3)
+## 📊 Monitoring Scripts
 
 This folder contains basic system monitoring scripts:
 
