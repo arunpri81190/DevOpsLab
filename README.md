@@ -27,6 +27,10 @@ This folder contains basic system monitoring scripts:
 - Displays current memory and swap usage
 - Saves output to terminal
 
+### 3. `process_monitor.sh`
+- Displays top 5 processes by memory and CPU usage
+- Useful for identifying resource-heavy applications
+
 ### 🔧 How to Run
 ```bash
 bash disk_usage_alert.sh
