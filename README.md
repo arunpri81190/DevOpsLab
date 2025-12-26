@@ -36,3 +36,11 @@ This folder contains basic system monitoring scripts:
 bash disk_usage_alert.sh
 bash memory_monitor.sh
 
+### 4. ping_monitor.sh
+
+**Description:**  
+Checks if a given host (domain or IP) is reachable using `ping`.
+
+**Usage:**  
+```bash
+bash ping_monitor.sh <hostname or IP>
