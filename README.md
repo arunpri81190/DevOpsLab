@@ -44,3 +44,12 @@ Checks if a given host (domain or IP) is reachable using `ping`.
 **Usage:**  
 ```bash
 bash ping_monitor.sh <hostname or IP>
+
+###5. http_status.sh
+
+**Description:**  
+Checks the HTTP status code of a given URL using `curl`. It follows redirects and provides a human-readable explanation of the result.
+
+**Usage:**  
+```bash
+bash http_status.sh <URL>
