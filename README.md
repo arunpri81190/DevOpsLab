@@ -67,3 +67,13 @@ TLS Handshake  : 0.089s
 Server Response: 0.134s
 Total Time     : 0.200s
 
+###6. service_monitor.sh
+Description:
+Checks whether a given Linux service is running using systemctl
+Usage:
+bash service_monitor.sh <service_name>
+Example:
+bash service_monitor.sh ssh
+Output:
+Service 'ssh' is RUNNING
+
