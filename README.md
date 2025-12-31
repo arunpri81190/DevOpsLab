@@ -77,3 +77,19 @@ bash service_monitor.sh ssh
 Output:
 Service 'ssh' is RUNNING
 
+###7. cron_jobs.sh
+This project provides a lightweight Bash-based automation to monitor the status of a Linux service (e.g., nginx) at regular intervals using cron. The script logs the service status to a file, making it easy to track uptime and diagnose issues
+
+Features
+- Monitors any systemd-managed service (e.g., nginx, ssh, cron)
+- Runs automatically at scheduled intervals via cron
+- Logs service status to a file for easy tracking
+- Easily customizable for different services or intervals
+Steps:
+1. Clone the repo
+2. Create the monitoring script(for us we've already created the "service_monitor.sh" file)
+3. Make it executable
+4. Add the cron job to the file
+5. Test the script using "bash service_monitor.sh <service_name>" Eg: bash service_monitor.sh nginx
+6. Append or echo the output to a logfile (service_logs.txt)
+7. Make any changes like start or stop the service and check the logs after the time set on cron(5 mins in our case)
