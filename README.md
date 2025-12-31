@@ -53,3 +53,17 @@ Checks the HTTP status code of a given URL using `curl`. It follows redirects an
 **Usage:**  
 ```bash
 bash http_status.sh <URL>
+
+###6. responsetime.sh
+Description:
+Measures the response time of a given URL using curl. Reports DNS lookup, TCP connect, TLS handshake, server response, and total time.
+Example:
+bash response_time.sh https://google.com
+Output:
+Measuring response time for: https://google.com
+DNS Lookup     : 0.012s
+TCP Connect    : 0.045s
+TLS Handshake  : 0.089s
+Server Response: 0.134s
+Total Time     : 0.200s
+
